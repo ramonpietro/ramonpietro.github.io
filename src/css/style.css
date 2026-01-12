@@ -282,6 +282,10 @@ a:hover {
 }
 
 @media (max-width: 575px) {
+    body {
+        min-height: 100%;
+    }
+
     .language-menu {
         background: rgba(33, 33, 33, 0.55);
         backdrop-filter: blur(50px);
