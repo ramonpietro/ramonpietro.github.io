@@ -282,6 +282,12 @@ a:hover {
 }
 
 @media (max-width: 575px) {
+    #loader p {
+        max-width: 65vw;
+        margin: 0 25px;
+        text-align: center;
+    }
+
     body {
         min-height: 100vh;
         background-position: center;
@@ -403,6 +409,6 @@ a:hover {
     }
 
     .footer-copy {
-        max-width: 40%;
+        margin-bottom: 15px;
     }
 }
