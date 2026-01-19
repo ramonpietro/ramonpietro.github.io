@@ -25,6 +25,14 @@ window.addEventListener('load', () => {
     }, 1100);
 })
 
+const phone = "5593991830384";
+const message = "Olá! Vim pelo seu site.";
+  
+const encodedMessage = encodeURIComponent(message);
+const whatsappLink = `https://wa.me/${phone}?text=${encodedMessage}`;
+
+document.getElementById("whatsapp-link").href = whatsappLink;
+
 // LANGUAGES
 
 const translations = {
